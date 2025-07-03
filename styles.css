@@ -1,0 +1,82 @@
+body {
+    background: black;
+    justify-content: center;
+    display:flex;
+    font-family: 'Calibri';
+}
+
+div {
+    box-sizing: border-box;
+}
+
+div.post {
+    background: white;
+    width: 400px;
+    height: 680px;
+    margin-top: 100px;
+}
+div.header-post {
+    display:flex;
+    height: 60px;
+}
+span.logo {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 0px;
+    zoom:150%;
+
+}
+div.Info h1 {
+    font-size: 17px;
+    padding-left: 10px;
+    padding-right: 240px;
+    margin-top: 10px;
+    margin-bottom: 0%;
+}
+div.Info p {
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 240px;
+    margin-top: 0%;
+    margin-bottom: 25px;
+}
+span.opt {
+    margin-top: 10px;
+    zoom:150%;
+}
+div.img-post img{
+    position: relative;
+    zoom: 95%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+div.body-post .icons{
+    display : flex;
+    margin-bottom: 10px;
+}
+span.like {
+    zoom: 150%;
+    margin-left: 8px;
+}
+span.coment {
+    zoom: 150%;
+    margin-left: 8px;
+}
+span.share {
+    zoom:150%;
+    margin-left: 8px;
+}
+span.guardar {
+    zoom:150%;
+    margin-left: 170px;
+}
+div.body-post .texto {
+    font-size: 18px;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
